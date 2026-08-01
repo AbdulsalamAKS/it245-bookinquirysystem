@@ -8,3 +8,6 @@ public static void main(String[] args) {
     String targetTitle = "Java Programming";
     System.out.println("\n--- Book Inquiry System Test ---");
     System.out.println("Searching for: " + targetTitle + "\n");
+
+    System.out.println("\n--- Book Inquiry System Test ---");
+    System.out.println("Searching for: " + targetTitle + "\n");
