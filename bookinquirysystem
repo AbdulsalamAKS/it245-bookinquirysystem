@@ -1,4 +1,10 @@
 import java.util.HashMap;
 import java.util.LinkedList;
 public class bookinquirysystem {
-    public static void main(String[] args) {
+public static void main(String[] args) {
+
+    String[] titles = { "The Great Gatsby", "Sherlock", "Java Programming", "Data Structures" };
+    int[] isbns = { 1234, 4321, 2468, 8642 };
+    String targetTitle = "Java Programming";
+    System.out.println("\n--- Book Inquiry System Test ---");
+    System.out.println("Searching for: " + targetTitle + "\n");
