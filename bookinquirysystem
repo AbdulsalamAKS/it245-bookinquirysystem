@@ -11,3 +11,19 @@ public static void main(String[] args) {
 
     System.out.println("\n--- Book Inquiry System Test ---");
     System.out.println("Searching for: " + targetTitle + "\n");
+
+    public static void searchUsingHashMap(String[] titles, int[] isbns, String target) {
+        HashMap<String, Integer> bookMap = new HashMap<>();
+
+        for (int i = 0; i < titles.length; i++) {
+            bookMap.put(titles[i], isbns[i]);
+        }
+
+        if (bookMap.containsKey(target)) {
+            System.out.println("[HashMap] Found: " + target + " (ISBN: " + bookMap.get(target) + ")");
+        } else {
+            System.out.println("[HashMap] Book not found.");
+        }
+    }
+}
+}
